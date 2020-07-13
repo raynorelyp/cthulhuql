@@ -1,6 +1,7 @@
 Welcome to CthulhuQL, where we hate names that make sense and query Javascript with SQL.
 
 Supported:
+
     * SELECT * FROM x
     * SELECT col1 FROM x
     * SELECT col1-->'jsonField' FROM x
@@ -9,6 +10,7 @@ Supported:
     * SELECT * FROM x ORDER BY y DESC
 
 Coming Soon:
+
     * SELECT DISTINCT a, b FROM x
     * SELECT * FROM x GROUP BY x.y
     * SELECT COUNT(*) FROM x
