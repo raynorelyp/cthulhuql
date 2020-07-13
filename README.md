@@ -27,3 +27,4 @@ Coming Soon:
     * SELECT * FROM x WHERE y like '%asf%'
     * Having clause
     * Support "NOT"
+    * SELECT 'a' AS b FROM x
