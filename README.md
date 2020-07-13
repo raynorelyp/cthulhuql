@@ -6,7 +6,7 @@ Supported:
     * SELECT col1 FROM x
     * SELECT col1-->'jsonField' FROM x
     * SELECT col1->'jsonField'->>'nestedJsonField' FROM x
-    * SELECT * FROM x WHERE y > z AND a > 3 OR b <> c
+    * SELECT * FROM x WHERE y > z AND a > 3 OR b <> c OR d = e
     * SELECT * FROM x ORDER BY y DESC
 
 Coming Soon:
@@ -26,3 +26,4 @@ Coming Soon:
     * SELECT y.* FROM x as y
     * SELECT * FROM x WHERE y like '%asf%'
     * Having clause
+    * Support "NOT"
