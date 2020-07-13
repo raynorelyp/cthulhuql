@@ -1,0 +1,14 @@
+{
+  "name": "cthulhuql",
+  "version": "0.0.1",
+  "description": "Query Javascript with SQL",
+  "main": "convert.js",
+  "scripts": {
+    "test": "jest ./src/*.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
