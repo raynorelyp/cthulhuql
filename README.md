@@ -25,3 +25,4 @@ Coming Soon:
     * SELECT * FROM x as y
     * SELECT y.* FROM x as y
     * SELECT * FROM x WHERE y like '%asf%'
+    * Having clause
